@@ -11,6 +11,7 @@ import pyscreenshot as ImageGrab
 start = time.time()
 payload = {'apikey': '709e37ac8788957'}
 
+#This axis measurements varies. Manually fix it.
 im=ImageGrab.grab(bbox=(50,342,400,715))  #50,342,400,715 (Loco) 50,242,420,515 (Brainbaazi)
 im.save('screenshot.png')
 
